@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <main>
         <article className="container mx-auto p-8">
           <h1 className="font-light">
-            UI Designs: Actual Photos
+            V Designs: Actual Photos
           </h1>
           <section className="pt-[1px] pb-[1px] mb-12">
             <h2 className="font-light">Admin app</h2>
