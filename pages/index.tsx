@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <main>
         <article className="container mx-auto p-8">
-          <h1 className="font-light m-0" style={{ lineHeight: 1 }}>
+          <h1 className="font-light mb-0" style={{ lineHeight: 1 }}>
             UI Designs
           </h1>
           <div className="mb-4">Actual Photos</div>
