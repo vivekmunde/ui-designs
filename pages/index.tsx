@@ -15,12 +15,13 @@ const Home: NextPage = () => {
 
       <main>
         <article className="container mx-auto p-8">
-          <h1 className="font-light">
-            UI Designs: Actual Photos
+          <h1 className="font-light m-0" style={{ lineHeight: 1 }}>
+            UI Designs
           </h1>
+          <div className="mb-4">Actual Photos</div>
           <section className="pt-[1px] pb-[1px] mb-12">
             <h2 className="font-light">Admin app</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               <VideoShowcase url="admin.mp4" />
               <ImageShowcase imageAlt="Home" imageUrl="admin-home-1.png" />
               <ImageShowcase imageAlt="Home" imageUrl="admin-children-attendance-1.png" />
@@ -48,7 +49,7 @@ const Home: NextPage = () => {
 
           <section className="pt-[1px] pb-[1px] mb-12">
             <h2 className="font-light">Parent app</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               <VideoShowcase url="parent.mp4" />
               <ImageShowcase imageAlt="Home" imageUrl="parent-home-1.png" />
               <ImageShowcase imageAlt="Home" imageUrl="parent-home-2.png" />
