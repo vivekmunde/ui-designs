@@ -7,7 +7,8 @@ const ImageShowcase: React.FC<{
   <img
     alt={imageAlt}
     src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${imageUrl}`}
-    className="rounded-2xl border-4 border-gray-600" />
+    className="rounded-2xl border-4 border-gray-600"
+    style={{ maxHeight: '90vh' }} />
 );
 
 export default ImageShowcase;
