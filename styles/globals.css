@@ -54,3 +54,8 @@ small {
   font-size: 80%;
   line-height: 1.5;
 }
+
+.bus-store-image {
+  height: 24px;
+  cursor: pointer;
+}
